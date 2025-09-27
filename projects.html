@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan's Portfolio Website</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/projects.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- My navigation for everything-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
     <div class="container-fluid"> 
       <a class="navbar-brand" href="index.html">Ethan's Portfolio Website!</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -34,98 +34,100 @@
     </div>
   </nav>
 
-  <!-- Stuff for projects -->
-  <div class="container my-5">
-    <h2 class="text-center mb-4">Coding Projects</h2>
-    <div class="row g-4">
-      
-      <div class="col-md-4">
-        <a href="https://github.com/TheoOP/RateMyDiningHallApp" target="_blank" rel="noopener noreferrer" class="d-block">
-          <div class="card h-100 shadow-sm">
-          <div class="card-body text-center"> 
-            <h5 class="card-title">Daily Dining Hall Rater (Made 5/7/23)</h5>   
-            <img class="card-img-top" src="img/DiningHall.png" alt="picture of dining hall app"> 
-            <p class="card-text">This web app was made in a group with 3 other students for my junior year GUI class.
-              It is a daily dining hall rater for the multiple dining halls that are on
-              the UMass Lowell campus. The Daily Dining Hall Rater was made with react and firebase
-              which allows for unique user profiles, ratings, comments, upvotes/downvotes, and reviews.</p>
-          </div>
-          </div>
-        </a>
-      </div>
+  <div class="mainContent">
+    <!-- Stuff for projects -->
+    <div class="container mb-5">
+      <h2 class="text-center mb-4">Coding Projects</h2>
+      <div class="row g-4">
+        
+        <div class="col-md-4">
+          <a href="https://github.com/TheoOP/RateMyDiningHallApp" target="_blank" rel="noopener noreferrer" class="d-block project-card">
+            <div class="card h-100 shadow-sm">
+            <div class="card-body text-center"> 
+              <h5 class="card-title">Daily Dining Hall Rater (Made 5/7/23)</h5>   
+              <img id="DiningHallPNG" class="card-img-top" src="img/DiningHall.png" alt="picture of dining hall app"> 
+              <p class="card-text">This web app was made in a group with 3 other students for my junior year GUI class.
+                It is a daily dining hall rater for the multiple dining halls that are on
+                the UMass Lowell campus. The Daily Dining Hall Rater was made with react and firebase
+                which allows for unique user profiles, ratings, comments, upvotes/downvotes, and reviews.</p>
+            </div>
+            </div>
+          </a>
+        </div>
 
-      <div class="col-md-4">
-        <a href="https://github.com/EthanPKittell/School/tree/master/ComputerScienceFiles/N-Body%20Simulator" target="_blank" rel="noopener noreferrer" class="d-block">
-          <div class="card h-100 shadow-sm">
-          <div class="card-body text-center"> 
-            <h5 class="card-title">N-Body Simulator (Made in C++ 2/25/22)</h5> 
-            <img class="card-img-top" src="img/N-body.png" alt="picture of a solar system">
-            <p class="card-text">The simulation reads from a file of celestial bodies with their own position, velocity, and
-                mass. It then stores these celestial bodies in a vector of objects. Finally, each step of the
-                program updates its positions and scales them to the program's SFML window.</p>
-          </div>
-          </div>
-        </a>
-      </div>
+        <div class="col-md-4">
+          <a href="https://github.com/EthanPKittell/School/tree/master/ComputerScienceFiles/N-Body%20Simulator" target="_blank" rel="noopener noreferrer" class="d-block project-card">
+            <div class="card h-100 shadow-sm">
+            <div class="card-body text-center"> 
+              <h5 class="card-title">N-Body Simulator (Made in C++ 2/25/22)</h5> 
+              <img id="NBodyPNG" class="card-img-top" src="img/N-body.png" alt="picture of a solar system">
+              <p class="card-text">The simulation reads from a file of celestial bodies with their own position, velocity, and
+                  mass. It then stores these celestial bodies in a vector of objects. Finally, each step of the
+                  program updates its positions and scales them to the program's SFML window.</p>
+            </div>
+            </div>
+          </a>
+        </div>
 
-      <div class="col-md-4">
-        <a href="https://github.com/EthanPKittell/School/tree/master/ComputerScienceFiles/Photo%20Encryption%20Program" target="_blank" rel="noopener noreferrer" class="d-block">
-          <div class="card h-100 shadow-sm">
-          <div class="card-body text-center">  
-            <h5 class="card-title">Photo Encryption Program (Made in C++ 1/29/22)</h5>
-            <img class="card-img-top"  src="img/decodeScreenshot.PNG" alt="picture of a cat and an encrypted picture"> 
-            <p class="card-text">This program reads in a 16-bit integer and a photo. It then stores that integer into a linear
-                feedback shift register where it modifies each pixel based on the output of the current
-                register. This results in a photo that can be encrypted and decrypted to the original image
-                when provided with the same 16-bit integer.</p>
-          </div>
-          </div>
-        </a>
-      </div>
+        <div class="col-md-4">
+          <a href="https://github.com/EthanPKittell/School/tree/master/ComputerScienceFiles/Photo%20Encryption%20Program" target="_blank" rel="noopener noreferrer" class="d-block project-card">
+            <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">  
+              <h5 class="card-title">Photo Encryption Program (Made in C++ 1/29/22)</h5>
+              <img id="DecodePNG" class="card-img-top"  src="img/decodeScreenshot.PNG" alt="picture of a cat and an encrypted picture"> 
+              <p class="card-text">This program reads in a 16-bit integer and a photo. It then stores that integer into a linear
+                  feedback shift register where it modifies each pixel based on the output of the current
+                  register. This results in a photo that can be encrypted and decrypted to the original image
+                  when provided with the same 16-bit integer.</p>
+            </div>
+            </div>
+          </a>
+        </div>
 
+      </div>
     </div>
-  </div>
 
-  <!-- Stuff for gamedev -->
-  <div class="container my-5">
-    <h2 class="text-center mb-4">Game Dev Projects</h2>
-    <div class="row g-4">
-      
-  
-      <div class="col-md-6">
-        <a href="https://github.com/EthanPKittell/new-game-3-16-24" target="_blank" rel="noopener noreferrer" class="d-block">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body text-center">
-            <h5 class="card-title">new-game-3-16-24 (Made in Godot ongoing project)</h5>
-            <img class="card-img-top" src="img/newGamePNG.png" alt="picture of a top down game">
-            <p class="card-text">A top down shooter I am working on in my freetime. This project is yet to be named,
-              it is all made entirely in the game engine Godot with the language GDScript. The game is currently in a 
-              playable state where the user fights through multiple floors of a dungeon where he must survive waves of
-              bug enemies to reach the final floor and beat the game. The project was meant to be a remastered version of
-              my original game scavenge and be my introduction to developing games with the Godot game engine.
-            </p>
-          </div> 
-          </div> 
-        </a>
+    <!-- Stuff for gamedev -->
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Game Dev Projects</h2>
+      <div class="row g-4">
+        
+    
+        <div class="col-md-6">
+          <a href="https://github.com/EthanPKittell/new-game-3-16-24" target="_blank" rel="noopener noreferrer" class="d-block project-card">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">new-game-3-16-24 (Made in Godot ongoing project)</h5>
+              <img id="newGame" class="card-img-top" src="img/newGamePNG.png" alt="picture of a top down game">
+              <p class="card-text">A top down shooter I am working on in my freetime. This project is yet to be named,
+                it is all made entirely in the game engine Godot with the language GDScript. The game is currently in a 
+                playable state where the user fights through multiple floors of a dungeon where he must survive waves of
+                bug enemies to reach the final floor and beat the game. The project was meant to be a remastered version of
+                my original game scavenge and be my introduction to developing games with the Godot game engine.
+              </p>
+            </div> 
+            </div> 
+          </a>
+        </div>
+
+        <div class="col-md-6"> 
+          <a href="https://github.com/EthanPKittell/SideProjects/tree/main/GameDev" target="_blank" rel="noopener noreferrer" class="d-block project-card">
+            <div class="card h-100 shadow-sm">  
+            
+            <div class="card-body text-center">
+              <h5 class="card-title">Highschool Project: Scavenge (Made in GML 2020)</h5>
+              <img id="scavengePNG" class="card-img-top" src="img/scavengePNG.png" alt="picture of my game scavenge">
+              <p class="card-text">This is a video game I made in highschool for a game development club.
+                    It was made in Game Maker Studio using their proprietary coding langauge Game Maker Langauge
+                    (also called GML). The game is a top down shooter where the user must survive waves of robots
+                    using a laser gun. The user can upgrade their weapon as they progress through the game to survive
+                    more waves.  </p>
+            </div>
+            </div>
+          </a> 
+        </div> 
+
       </div>
-
-      <div class="col-md-6"> 
-        <a href="https://github.com/EthanPKittell/SideProjects/tree/main/GameDev" target="_blank" rel="noopener noreferrer" class="d-block">
-          <div class="card h-100 shadow-sm">  
-           
-          <div class="card-body text-center">
-            <h5 class="card-title">Highschool Project: Scavenge (Made in GML 2020)</h5>
-             <img class="card-img-top" src="img/scavengePNG.png" alt="picture of my game scavenge">
-            <p class="card-text">This is a video game I made in highschool for a game development club.
-                  It was made in Game Maker Studio using their proprietary coding langauge Game Maker Langauge
-                  (also called GML). The game is a top down shooter where the user must survive waves of robots
-                  using a laser gun. The user can upgrade their weapon as they progress through the game to survive
-                  more waves.  </p>
-          </div>
-          </div>
-        </a> 
-      </div> 
-
     </div>
   </div>
 

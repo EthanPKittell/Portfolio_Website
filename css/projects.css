@@ -1,5 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+   
+}
+/*^^ font for all text*/
+
+
 .navbar .nav-link.active {
-    background-color: #cce5ff;
+    background-color: #0462c5;
     color: #004085
     
+}
+
+#NBodyPNG {
+    height: 200px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#DecodePNG {
+    height: 200px;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#DiningHallPNG {
+    height: 200px;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#scavengePNG {
+    height: 200px;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#newGame {
+    height: 200px;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project-card {
+  text-decoration: none;
+  color: inherit; 
+}
+.project-card:hover {
+  text-decoration: none; 
+}
+
+/* project content css I am doing this to have a cool background color effect*/
+
+.mainContent {
+    width:100%;
+    height: 2500px;
+    background-image:linear-gradient(to bottom right, rgb(66, 65, 65),rgb(18, 17, 17));
+}
+
+body {
+  margin: 0; 
+  
 }
