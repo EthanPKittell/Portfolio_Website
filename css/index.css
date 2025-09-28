@@ -34,3 +34,156 @@
     border: 0.4mm solid white;
 
 }
+
+.contactDivContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactLink {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactDivEmail {
+    
+    border: 0.4mm solid white;
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/emailIcon.png");
+    background-size: 100%;
+    filter: brightness(0) invert(1);
+    
+}
+
+.contactDivLinkedIn {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.4mm solid white;
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/linkedin.png");
+    background-size: 100%;
+    filter: brightness(0) invert(1);
+    
+}
+
+.contactDivGitHub {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.4mm solid white;
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/gitHubIcon.png");
+    background-size: 100%;
+    filter: brightness(0) invert(1);
+    
+}
+
+/* Education div css */
+
+.EducationDiv {
+    
+  text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.uLowellLogo {
+    height: 260px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.EducationTitle {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.EducationBackground {
+width: 60%;
+margin: auto;
+}
+
+/* Skills div css */
+
+.SkillsDiv {
+    
+    text-align: center;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+  
+  .SkillsLogo {
+      height: 200px;
+      width: 200px;
+      margin-bottom: 30px;
+  }
+  
+  .SkillsTitle {
+      padding-top: 100px;
+      padding-bottom: 30px;
+  }
+  
+  .SkillsBackground {
+  width: 60%;
+  margin: auto;
+  }
+
+.SkillsListContainer {
+    text-align: center;
+    /*border: 1px solid black;*/
+    width: 300px;
+    height: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px;
+    background-color: rgb(228, 227, 227);
+    border-radius: 20px;
+}
+
+.SkillsListTitle {
+    height: 80px;
+}
+
+.SkillsList {
+    /*border: 1px solid black;*/
+    display: inline-block;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+.SkillLists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Professional Experience CSS */
+
+.ExperienceDiv {
+    
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ExperienceLogo {
+    height: 100px;
+    width: 390px;
+    margin-bottom: 30px;
+}
+
+
+.ExperienceTitle {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.ExperienceBackground {
+width: 60%;
+margin: auto;
+}
