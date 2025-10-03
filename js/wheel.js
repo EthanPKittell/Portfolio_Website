@@ -1,3 +1,6 @@
+//https://www.youtube.com/watch?v=ETFdNsBP04c&list=LL&index=1&t=1272s
+// ^^ I followed along with a good amount of this tutorial to make a similar spinner wheel
+
 const wheel = document.getElementById("wheel");
 const spinBtn = document.getElementById("spin-btn");
 const finalValue = document.getElementById("final-value");
