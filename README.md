@@ -30,4 +30,4 @@ once you are good with the look of it. Also please make sure there are no issues
 
 Contributors names and contact info
 
-Ethan Kittell
+-Ethan Kittell
