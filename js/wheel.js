@@ -19,12 +19,12 @@ const rotationValues = [
 const data = [16,16,16,16,16,16]
 //color for each piece
 var pieColors = [
-    "#fffb00ff",
-    "#01c732ff",
-    "#fffb00ff",
-    "#01c732ff",
-    "#fffb00ff",
-    "#01c732ff",
+    "#276ae7ff",
+    "#17c6f1ff",
+    "#00ff6aff",
+    "#e7fd1bff",
+    "#ff0800ff",
+    "#eb13ffff",
 
 ];
 
@@ -43,6 +43,7 @@ let myChart = new Chart(wheel, {
     }],
   },
   options: { 
+    maintainAspectRatio: false,
     responsive: true,
     animation: { duration: 0 },
     plugins: {
@@ -53,7 +54,7 @@ let myChart = new Chart(wheel, {
         color: "#000000",
         formatter: (_, context) => context.chart.data.labels[context.dataIndex],
         
-        font: { size: 20 },
+        font: { size: 18 },
         textAlign: "center"
       },
     },
